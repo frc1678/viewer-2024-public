@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_placement"
+        style="@style/tv_standard_gray"
+        android:layout_weight="2"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_team_number"
+        style="@style/tv_standard_gray"
+        android:layout_weight="3"
+        android:text="1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        style="@style/tv_standard_gray"
+        android:layout_weight="4"
+        android:text="4"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_pickability"
+        style="@style/tv_standard_gray"
+        android:layout_weight="4"
+        android:text="1"
+        android:gravity="center"/>
+</LinearLayout>

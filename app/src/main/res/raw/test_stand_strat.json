@@ -1,0 +1,33 @@
+{
+  "teamData": {
+    "1148B": {
+      "autoStrategies": "abcd",
+      "strengths": "efgh",
+      "weaknesses": "ijkl",
+      "notes": "mnop"
+    },
+    "114B": {
+      "autoStrategies": "qwer",
+      "strengths": "tyui",
+      "weaknesses": "opas",
+      "notes": "1234567"
+    },
+    "1323B": {
+      "autoStrategies": "a",
+      "strengths": "b",
+      "weaknesses": "c",
+      "notes": "d"
+    }
+  },
+  "timData": {
+    "1": {
+      "1148B": {
+        "playedDefense": true,
+        "defenseRating": 2,
+        "driversOverChargingStation": true,
+        "movePiecesBetweenRows": false,
+        "notes": "asdf"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/tv_team_number"-->
+    <!--        style="@style/tv_team_number_team_details"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:textSize="25sp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tv_datapoint"-->
+    <!--        style="@style/tv_team_number_team_details_sub"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="0.75"-->
+    <!--        android:textSize="17sp" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="15"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <com.github.mikephil.charting.charts.BarChart-->
+    <!--            android:id="@+id/bar_chart"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_marginRight="@dimen/very_small"-->
+    <!--            android:layout_weight="12" />-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:gravity="center_horizontal"-->
+    <!--        android:paddingBottom="@dimen/activity_horizontal_margin"-->
+    <!--        android:text="Match Number"-->
+    <!--        android:textColor="@color/Black"-->
+    <!--        android:textSize="14sp" />-->
+
+</LinearLayout>

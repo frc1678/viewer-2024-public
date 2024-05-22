@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/very_small">
+
+    <TextView
+        android:id="@+id/tv_team_number"
+        style="@style/tv_standard_gray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_local_rank"
+        style="@style/tv_standard_gray" />
+
+    <TextView
+        android:id="@+id/tv_imported_rank"
+        style="@style/tv_standard_gray" />
+
+</LinearLayout>

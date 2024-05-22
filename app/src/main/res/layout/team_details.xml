@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/team_details_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_lfm"
+                style="@style/btn_standard"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryLight"
+                android:text="@string/to_last_four_matches" />
+
+            <TextView
+                android:id="@+id/tv_team_number"
+                style="@style/tv_team_number_team_details"
+                android:layout_width="0dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/robot_pic_button"
+                style="@style/btn_standard"
+                android:layout_weight="1"
+                android:background="@color/LightYellow"
+                android:text="Picture" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_team_name"
+            style="@style/tv_team_number_team_details_sub" />
+
+        <Button
+            android:id="@+id/btn_auto_paths"
+            style="@style/btn_standard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/auto_paths" />
+
+        <View
+            style="@style/view_separator_horizontal"
+            android:layout_height="5dp" />
+
+        <ListView
+            android:id="@+id/lv_datapoint_display"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/view_separator_horizontal"
+        android:layout_height="5dp" />
+
+</RelativeLayout>

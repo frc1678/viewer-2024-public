@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/tv_header"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/btn_picklist_refresh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:textSize="14sp"
+            android:text="@string/btn_picklist_refresh" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+
+            />
+
+        <Button
+            android:id="@+id/btn_switch_online"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/title_online"
+            android:layout_weight="1.075"
+            android:textSize="14sp"
+            android:backgroundTint="@color/ToggleColor" />
+
+        <Button
+            android:id="@+id/btn_switch_offline"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/title_offline"
+            android:layout_weight="1.075"
+            android:textSize="14sp"
+            android:backgroundTint="@color/LightGray" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+    </LinearLayout>
+
+    <View style="@style/view_separator_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/very_small"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_team_number"
+            style="@style/tv_live_picklist_header"
+            android:layout_marginHorizontal="7dp"
+            android:text="@string/team_number" />
+
+        <TextView
+            android:id="@+id/tv_pick_header"
+            style="@style/tv_live_picklist_header"
+            android:layout_marginHorizontal="7dp"
+            android:text="@string/picklist_rank" />
+
+    </LinearLayout>
+
+    <View style="@style/view_separator_horizontal" />
+
+    <!--    <ListView-->
+    <!--        android:id="@+id/lv_live_picklist"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_live_picklist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

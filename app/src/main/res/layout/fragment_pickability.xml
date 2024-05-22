@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toggle_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/very_small"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_pickability_header"
+            style="@style/tv_header"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Pickability"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <View style="@style/view_separator_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/tv_standard_gray"
+            android:layout_weight="2"
+            android:text="Rank" />
+
+        <TextView
+            style="@style/tv_standard_gray"
+            android:layout_weight="3"
+            android:text="Team #" />
+
+        <TextView
+            style="@style/tv_standard_gray"
+            android:layout_weight="4"
+            android:text="Pickability" />
+
+        <Spinner
+            android:id="@+id/spinner_mode"
+            style="@style/tv_standard_gray"
+            android:layout_weight="4"
+            android:text="" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/Black" />
+
+    <ListView
+        android:id="@+id/lv_pickability"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

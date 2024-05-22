@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/very_small"
+            android:layout_marginTop="@dimen/very_small"
+            android:layout_weight="4"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/red_chip"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:text="Red"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@color/Black"
+                app:chipBackgroundColor="@drawable/map_red_selector" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/none_chip"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:text="None"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@color/Black"
+                app:chipBackgroundColor="@drawable/map_none_selector" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/blue_chip"
+                style="@style/Widget.MaterialComponents.Chip.Choice"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checkable="true"
+                android:text="Blue"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="@color/Black"
+                app:chipBackgroundColor="@drawable/map_blue_selector" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/very_small"
+            android:layout_marginRight="@dimen/very_small"
+            android:layout_weight="1"
+            android:background="@color/Red"
+            android:scaleType="fitCenter"
+            android:src="@drawable/close_button" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/field_map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:src="@drawable/field_24" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

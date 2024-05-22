@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryLight">#8EC8BC</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Red">#C92020</color>
+    <color name="Blue">#3498db</color>
+    <color name="ElectricGreen">#27ae60</color>
+    <color name="Black">#000000</color>
+    <color name="White">#fbfcfc</color>
+    <color name="Gray">#5d6d7e</color>
+    <color name="LightGray">#D3D3D3</color>
+    <color name="MediumGray">#B1B0B0</color>
+    <color name="DarkGray">#7a7979</color>
+    <color name="LightYellow">#FFF59E</color>
+    <color name="Yellow">#FFDB58</color>
+    <color name="Gold">#EBC700</color>
+    <color name="Highlighter">#FF9900</color>
+    <color name="DarkYellow">#C9AA23</color>
+    <color name="ButtonGreen">#4CAF50</color>
+    <color name="LimeGreen">#9CCC65</color>
+    <color name="ToggleColor">#7DC8BE</color>
+    <color name="LightGreen">#d6f5d6</color>
+    <color name="Pink">#FFAFAF</color>
+    <color name="DataBar">#FFCFAF</color>
+
+    <color name="Highlight_0">#FFFFFF</color>
+    <color name="Highlight_1">#FFF59D</color>
+    <color name="Highlight_2">#FDD835</color>
+
+</resources>

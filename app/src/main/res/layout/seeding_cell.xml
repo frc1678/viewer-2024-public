@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/very_small">
+
+    <TextView
+        android:id="@+id/tv_datapoint_one"
+        style="@style/tv_standard_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_number"
+        style="@style/tv_standard_black"
+        android:layout_weight="2"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_datapoint_two"
+        style="@style/tv_standard_gray"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/tv_datapoint_three"
+        style="@style/tv_standard_gray"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/tv_datapoint_four"
+        style="@style/tv_standard_gray"
+        android:layout_weight="2" />
+
+    <TextView
+        android:id="@+id/tv_datapoint_five"
+        style="@style/tv_standard_gray"
+        android:layout_weight="2" />
+</LinearLayout>

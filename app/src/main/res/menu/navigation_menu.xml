@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_menu_match_schedule"
+        android:title="Match Schedule"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_menu_rankings"
+        android:title="Rankings"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_menu_picklist"
+        android:title="Picklist"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_menu_pickability"
+        android:title="Pickability"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_menu_team_list"
+        android:title="Team List"
+        android:checkable="true" />
+    <item
+        android:id="@+id/nav_menu_alliance_details"
+        android:title="Elim Alliance Details"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_menu_groups"
+        android:title="Groups"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_menu_preferences"
+        android:title="Preferences"
+        android:checkable="true" />
+</menu>

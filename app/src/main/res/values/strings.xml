@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Viewer</string>
+    <string name="stitch_client_app_id">viewer-hngek</string>
+    <string name="match_number_match_details">Q21</string>
+    <string name="data_points_texts_match_details">EXAMPLE</string>
+    <string name="title_offline">Offline</string>
+    <string name="title_online">Online</string>
+    <string name="title_rankings">Current Rankings</string>
+    <string name="title_pred_rankings">Pred. Rankings</string>
+    <string name="title_match_schedule">Match Schedule</string>
+    <string name="title_current_seed">Current Seed</string>
+    <string name="title_predicted_seed">Predicted Seed</string>
+    <string name="title_auto">Auto</string>
+    <string name="title_tele">Tele</string>
+    <string name="title_endgame">Endgame</string>
+    <string name="team_number_text">Team #</string>
+    <string name="tv_version_num">Version %1$s</string>
+    <string name="last_updated">Last Updated:\n%1$s</string>
+    <string name="test_data">Last Updated:\nUsing Test Data</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="reset_button">Reset to Default</string>
+    <string name="select_all_button">Select All</string>
+    <string name="preferences">Preferences</string>
+    <string name="user_name">User Name</string>
+    <string name="edit">Edit</string>
+    <string name="field">Field</string>
+    <string name="live_picklist">Online Picklist</string>
+    <string name="offline_picklist">Offline Picklist</string>
+    <string name="picklist_rank">Picklist Rank</string>
+    <string name="team_number">Team Number</string>
+    <string name="full_robot_1">Full Robot</string>
+    <string name="highlight_our_matches_enabled">Unstar Our Matches</string>
+    <string name="highlight_our_matches_disabled">Star Our Matches</string>
+    <string name="rotate">Rotate View</string>
+    <string name="btn_picklist_edit">Edit</string>
+    <string name="btn_picklist_view">View</string>
+    <string name="picklist_password_input">Password</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="which_profile_would_you_like_to_use">Which profile would you like to use?</string>
+    <string name="continue_button">Continue</string>
+    <string name="import_team_list">Import from Team List</string>
+    <string name="import_server">Import from server</string>
+    <string name="btn_picklist_refresh">Refresh</string>
+    <string name="export_picklist_button">Export to main server (for everyone)</string>
+    <string name="to_all_matches">To All Matches</string>
+    <string name="to_last_four_matches">To L4M</string>
+    <string name="imported_rank">Imported Rank</string>
+    <string name="local_rank">Local Rank</string>
+    <string name="auto_paths">Auto Paths</string>
+
+    <string-array name="match_schedule_filter_array">
+        <item>All Matches</item>
+        <item>Our Matches</item>
+        <item>Starred</item>
+    </string-array>
+
+    <string-array name="user_array">
+        <item>Other</item>
+        <item>Austin</item>
+        <item>Stand Strategist</item>
+        <item>Mike</item>
+        <item>Richard</item>
+        <item>Kina</item>
+        <item>Steve</item>
+    </string-array>
+
+    <string-array name="map_tb_array">
+        <item>Red</item>
+        <item>None</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="pickability">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>Defensive 2nd</item>
+        <item>Scoring 2nd</item>
+    </string-array>
+
+</resources>

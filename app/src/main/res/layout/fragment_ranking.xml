@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ranking_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toggle_bar"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:padding="@dimen/very_small">
+
+        <Button
+            android:id="@+id/btn_switch_rankings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/title_rankings"
+            android:layout_weight="1.075"
+            android:textSize="14sp"
+            android:backgroundTint="@color/ToggleColor" />
+
+        <Button
+            android:id="@+id/btn_switch_pred_rankings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/title_pred_rankings"
+            android:layout_weight="1.075"
+            android:textSize="14sp"
+            android:backgroundTint="@color/LightGray" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator_header"
+        style="@style/view_separator_horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toggle_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_ranking_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/separator_header"
+        android:orientation="horizontal"
+        android:padding="@dimen/very_small">
+
+        <TextView
+            android:id="@+id/tv_datapoint_one"
+            style="@style/tv_standard_gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_team_number"
+            style="@style/tv_standard_black"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_datapoint_two"
+            style="@style/tv_standard_gray"
+            android:layout_weight="2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_datapoint_three"
+            style="@style/tv_standard_gray"
+            android:layout_weight="2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_datapoint_four"
+            style="@style/tv_standard_gray"
+            android:layout_weight="2"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_datapoint_five"
+            style="@style/tv_standard_gray"
+            android:layout_weight="2"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_separator_ll_key"
+        style="@style/view_separator_horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_ranking_key" />
+
+    <ListView
+        android:id="@+id/lv_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_separator_ll_key"
+        android:layout_marginTop="0dp" />
+
+</RelativeLayout>

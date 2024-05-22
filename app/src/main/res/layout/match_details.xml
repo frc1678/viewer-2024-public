@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        style="@style/view_separator_horizontal"
+        android:layout_height="3dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_header_label_one"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_header_one"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_header_label_two"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_header_two"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_header_label_three"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_header_three"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_win_chance_label_blue"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Blue" />
+
+            <TextView
+                android:id="@+id/tv_win_chance_blue"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Blue" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_match_number_display"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/match_number_match_details"
+            android:textSize="50sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_header_label_four"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_header_four"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_header_label_five"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_header_five"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_header_label_six"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_header_six"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_win_chance_label_red"
+                style="@style/tv_data_points_top_match_details_labels"
+                android:textColor="@color/Red" />
+
+            <TextView
+                android:id="@+id/tv_win_chance_red"
+                style="@style/tv_data_points_top_match_details"
+                android:textColor="@color/Red" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        style="@style/view_separator_horizontal"
+        android:layout_height="3dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/tv_team_number_match_details"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
+                        android:text="Team" />
+
+                    <TextView
+                        android:id="@+id/tv_team_one_label"
+                        style="@style/tv_team_number_match_details"
+                        android:layout_weight="1"
+                        android:textColor="@color/Blue" />
+
+                    <TextView
+                        android:id="@+id/tv_team_two_label"
+                        style="@style/tv_team_number_match_details"
+                        android:layout_weight="1"
+                        android:textColor="@color/Blue" />
+
+                    <TextView
+                        android:id="@+id/tv_team_three_label"
+                        style="@style/tv_team_number_match_details"
+                        android:layout_weight="1"
+                        android:textColor="@color/Blue" />
+
+                    <TextView
+                        android:id="@+id/tv_team_four_label"
+                        style="@style/tv_team_number_match_details"
+                        android:layout_weight="1"
+                        android:textColor="@color/Red" />
+
+                    <TextView
+                        android:id="@+id/tv_team_five_label"
+                        style="@style/tv_team_number_match_details"
+                        android:layout_weight="1"
+                        android:textColor="@color/Red" />
+
+                    <TextView
+                        android:id="@+id/tv_team_six_label"
+                        style="@style/tv_team_number_match_details"
+                        android:layout_weight="1"
+                        android:textColor="@color/Red" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:orientation="horizontal">
+
+                    <ListView
+                        android:id="@+id/lv_match_details"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

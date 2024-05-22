@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/tv_datapoint_name"
+        style="@style/tv_variable_name_match_details"
+        android:layout_weight="2"
+        android:text="variable" />
+
+    <View style="@style/view_separator_vertical_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_one_md"
+        style="@style/tv_md_value_cell"
+        android:layout_weight="1"
+        android:textColor="@color/Blue" />
+
+    <View style="@style/view_separator_vertical_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_two_md"
+        style="@style/tv_md_value_cell"
+        android:layout_weight="1"
+        android:textColor="@color/Blue" />
+
+    <View style="@style/view_separator_vertical_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_three_md"
+        style="@style/tv_md_value_cell"
+        android:layout_weight="1"
+        android:textColor="@color/Blue" />
+
+    <View style="@style/view_separator_vertical_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_four_md"
+        style="@style/tv_md_value_cell"
+        android:layout_weight="1"
+        android:textColor="@color/Red" />
+
+    <View style="@style/view_separator_vertical_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_five_md"
+        style="@style/tv_md_value_cell"
+        android:layout_weight="1"
+        android:textColor="@color/Red" />
+
+    <View style="@style/view_separator_vertical_gray" />
+
+    <TextView
+        android:id="@+id/tv_team_six_md"
+        style="@style/tv_md_value_cell"
+        android:layout_weight="1"
+        android:textColor="@color/Red" />
+
+</LinearLayout>
